@@ -1,18 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praktikum SIDJA | Naufal Hafid</title>
-</head>
-<body background="Ciremai.jpeg">
-    <h3>MENU PRAKTIKUM SIDJA</h3>
-    <img src="Logo.jpg" alt="Naufal Hafid" width="90" height="95">
+    <title>Kopi Kampus</title>
 
-<br>Praktikum 1 klik <a href="praktikum1.html">disini</a>
-<br>Praktikum 2 klik <a href="praktikum2.html">disini</a>
-<br>Praktikum 3 klik <a href="praktikum3.html">disini</a>
-<br>Praktikum 4 klik <a href="praktikum4.html">disini</a>
-<br>Praktikum 5 klik <a href="praktikum5.html">disini</a>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #20232a;
+        }
+
+        .container {
+            width: 430px;
+            min-height: 100vh;
+            margin: auto;
+            padding: 30px 35px;
+            background: rgba(255, 255, 255, 0.85);
+            background-image:
+                linear-gradient(135deg,
+                rgba(220,220,220,.7) 25%,
+                transparent 25%,
+                transparent 50%,
+                rgba(220,220,220,.7) 50%,
+                rgba(220,220,220,.7) 75%,
+                transparent 75%);
+            background-size: 180px 180px;
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 90px;
+            margin-bottom: 10px;
+        }
+
+        .menu {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .menu a {
+            color: #1717a8;
+            text-decoration: underline;
+            font-size: 17px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 38px;
+            font-weight: normal;
+            line-height: 1.4;
+            margin-bottom: 50px;
+        }
+
+        .slogan {
+            text-align: center;
+            font-size: 22px;
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        hr {
+            margin: 30px 0;
+            border: none;
+            border-top: 1px solid #aaa;
+        }
+
+        .deskripsi {
+            font-size: 19px;
+            line-height: 1.7;
+        }
+
+        .deskripsi .highlight {
+            background: yellow;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 30px;
+        }
+
+        ul {
+            font-size: 19px;
+            line-height: 1.8;
+        }
+
+        .sub {
+            list-style-type: circle;
+        }
+
+        footer {
+            text-align: center;
+            color: #666;
+            margin-top: 50px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            ☕
+        </div>
+
+        <div class="menu">
+            <a href="#">Beranda</a>
+            |
+            <a href="#">Jadwal Operasional</a>
+        </div>
+
+        <h1>
+            Selamat Datang di Kopi<br>
+            Kampus.
+        </h1>
+
+        <div class="slogan">
+            "Tempat terbaik untuk tugas, diskusi, dan
+            menjemput inspirasi."
+        </div>
+
+        <hr>
+
+        <div class="deskripsi">
+            Cafe Kopi didirikan sejak tahun 2026 untuk
+            mendukung produktivitas Programer dalam
+            menyelesaikan tugas coding. Kami
+            berkomitmen menyajikan racikan kopi
+            berkualitas tinggi namun tetap dengan
+            <span class="highlight">
+                harga yang sangat terjangkau
+            </span>
+            bagi kantong programer profesional.
+        </div>
+
+        <h2>Menu Favorit Kami</h2>
+
+        <ul>
+            <li>
+                Minuman
+                <ul class="sub">
+                    <li>Kopi Susu Aren</li>
+                    <li>Green Tea Latte</li>
+                </ul>
+            </li>
+
+            <li>
+                Makanan
+                <ul class="sub">
+                    <li>Roti Bakar Cokelat</li>
+                    <li>Kentang Goreng</li>
+                </ul>
+            </li>
+        </ul>
+
+        <footer>
+            Created by Dede Iyan Supardi @2026
+        </footer>
+
+    </div>
+
 </body>
 </html>
